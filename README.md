@@ -105,13 +105,6 @@ http://alb-basic-test-1565875067.us-east-1.elb.amazonaws.com/app1/metadata.html
 - Delete Target Groups
 - Delete EC2 Instances
     
-## Step-03: Copy all files from previous section 
-- We are going to copy all files from previous section `08-AWS-ELB-Classic-LoadBalancer`
-- Files from `c1 to c9`
-- Create the files for ALB Basic
-  - c10-01-ALB-application-loadbalancer-variables.tf
-  - c10-02-ALB-application-loadbalancer.tf
-  - c10-03-ALB-application-loadbalancer-outputs.tf
 
 ## Step-04: c10-02-ALB-application-loadbalancer.tf
 - Create AWS Application Load Balancer Terraform configuration using [ALB Terraform Module](https://registry.terraform.io/modules/terraform-aws-modules/alb/aws/latest)
